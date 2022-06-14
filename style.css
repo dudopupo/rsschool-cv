@@ -160,6 +160,9 @@ header nav .menu .menu_item a:active {
 
 .Languages{
 	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
 	margin-top: 25px;
 }
 
