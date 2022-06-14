@@ -270,6 +270,7 @@ legend,
 
 .design .design_card .design_card_item {
 	margin: 22px 0px 0px 22px;
+	list-style-type: none;
 }
 
 .design .design_card .design_card_item:nth-child(2n) {
@@ -305,6 +306,7 @@ legend,
 
 .layout .layout_card .layout_card_item {
 	margin: 22px 0px 0px 22px;
+	list-style-type: none;
 }
 
 .layout .layout_card .layout_card_item:nth-child(2n) {
@@ -335,10 +337,92 @@ legend,
 	min-height: 262px;
 }
 
+.progLang .progLang_card .progLang_card_item {
+	list-style-type: none;
+}
+
 .progLang .progLang_card .progLang_card_item img {
 	margin: 32px 0px 0px 28px;
 }
 
 .example .title {
 	margin-top: 104px;
+}
+
+code {
+	display: block;
+	color: #ffffff;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	background: rgba(233, 233, 233, 0.1);
+	box-shadow: 2px 11px 27px rgba(0, 0, 0, 0.25), inset 4px 4px 6px rgba(255, 255, 255, 0.25);
+	backdrop-filter: blur(3px);
+	border-radius: 12px;
+	width: 262px;
+	height: 100px;
+	padding: 20px 0px 0px 20px;
+	margin-top: 30px;
+}
+
+code .green {
+	color: green;
+}
+
+code .red {
+	color: red;
+}
+
+code .blue {
+	color:skyblue;
+}
+
+.project {
+	margin-bottom: 50px;
+}
+
+.project a {
+	text-decoration: none;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 48px;
+	color: #F2B84B;
+	text-decoration: none;
+}
+
+footer {
+	min-height: 100px;
+	background-color: #1B1A1A;
+}
+
+.wrapper_footer {
+	display: flex;
+	align-items: center;
+	min-height: 100px;
+}
+
+.github_mylink a {
+	text-decoration: none;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-left: 5px;
+}
+
+.copyrating {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	margin-left: 342px;
+	color: #FFFFFF;
+}
+
+.RSS_link {
+	margin-left: 374px;
 }
